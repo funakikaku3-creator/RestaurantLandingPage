@@ -1,0 +1,10 @@
+{
+  "description": "Discover and reserve a stylish Italian dining experience with seasonal dishes and a cozy atmosphere, perfect for dates, gatherings, and celebrations.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

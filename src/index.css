@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-ivory: #F5F0E8;
+  --color-ivory-deep: #EDE7DB;
+  --color-wine: #8B2D2D;
+  --color-wine-light: #A33A3A;
+  --color-terracotta: #C17B5E;
+  --color-charcoal: #2C2420;
+  --color-charcoal-mid: #4A4540;
+  --color-charcoal-light: #6B5F58;
+  --color-stone: #D4C8B8;
+  --color-dark-bg: #1C1614;
+  --color-dark-bg-2: #261E1B;
+  --font-display: 'Fraunces', 'Noto Serif JP', Georgia, serif;
+  --font-display-jp: 'Noto Serif JP', 'Fraunces', Georgia, serif;
+  --font-body: 'Outfit', 'Noto Sans JP', system-ui, sans-serif;
+  --font-body-jp: 'Noto Sans JP', 'Outfit', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #F5F0E8;
+  color: #2C2420;
+  font-family: 'Outfit', 'Noto Sans JP', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C8B8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B2D2D;
+}
+
+.font-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-display-jp {
+  font-family: 'Noto Serif JP', Georgia, serif;
+}
+
+.font-body-jp {
+  font-family: 'Noto Sans JP', system-ui, sans-serif;
+}
